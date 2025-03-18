@@ -1,0 +1,39 @@
+{
+    "name": "Tracker - time and activity",
+    "short_name": "Tracker",
+    "description": "the ultimate time tracker app",
+    "display": "standalone",
+    "id": "index.html",
+    "start_url": "index.html",
+    "icons":[
+        {
+            "src": "./tracker.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "./tracker_512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        },
+        {
+            "src": "./tracker_192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "./tracker_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "./tracker_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "form_factor": "wide"
+        }
+    ]
+}
