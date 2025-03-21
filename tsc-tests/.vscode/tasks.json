@@ -3,18 +3,22 @@
   "tasks": [
     {
       "type": "typescript",
-      "tsconfig": "tsconfig-sw.json",
+      "tsconfig": "src/sw/tsconfig-sw.json",
       "option": "watch",
-      "problemMatcher": ["$tsc-watch"],
+      "problemMatcher": [
+        "$tsc-watch"
+      ],
       "isBackground": true,
       "group": "build",
       "label": "tsc: watch - tsconfig-sw.json"
-    },
+    },   
     {
       "type": "typescript",
-      "tsconfig": "tsconfig-app.json",
+      "tsconfig": "src/app/tsconfig-app.json",
       "option": "watch",
-      "problemMatcher": ["$tsc-watch"],
+      "problemMatcher": [
+        "$tsc-watch"
+      ],
       "isBackground": true,
       "group": "build",
       "label": "tsc: watch - tsconfig-app.json"
@@ -23,7 +27,10 @@
       "label": "sass: watch",
       "type": "shell",
       "command": "sass",
-      "args": ["src/scss:.", "--watch"],
+      "args": [
+        "src/scss:.",
+        "--watch"
+      ],
       "isBackground": true,
       "problemMatcher": []
     },
@@ -40,6 +47,6 @@
         "kind": "build",
         "isDefault": true
       }
-    }
-  ]
+    },
+    ]
 }

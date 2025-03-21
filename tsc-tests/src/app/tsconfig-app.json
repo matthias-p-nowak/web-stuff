@@ -4,8 +4,8 @@
     //   "module": "ESNext",
       "lib": ["DOM", "ESNext"],
       "strict": true,
-      "outFile": "app.js"    
+      "outFile": "../../app.js"    
     },
-    "include": ["src/app", "src/app/app.d.ts"],
+    "include": [".", "app.d.ts"],
   }
   
