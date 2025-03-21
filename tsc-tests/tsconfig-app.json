@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+    //   "module": "ESNext",
+      "lib": ["DOM", "ESNext"],
+      "strict": true,
+      "outFile": "app.js"    
+    },
+    "include": ["src/app", "src/app/app.d.ts"],
+  }
+  

@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+      "target": "ES6",
+    //   "module": "ESNext",
+      "lib": ["DOM", "ESNext"],
+      "strict": true,
+      "outFile": "sw.js"    
+    },
+    "include": ["src/sw", "src/sw/sw.d.ts"],
+  }
+  
