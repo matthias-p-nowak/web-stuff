@@ -1,0 +1,7 @@
+{
+    "liveServer.settings.https": {
+        "cert": "C:\\Jobb\\Root-CA\\web.crt",
+        "enable": true,
+        "key": "C:\\Jobb\\Root-CA\\web.key"
+    }
+}
