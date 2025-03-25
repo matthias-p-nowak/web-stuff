@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/worker.ts"],
+  "sourcesContent": ["console.log('hello world from worker.ts');"],
+  "mappings": ";;;AAAA,UAAQ,IAAI,4BAA4B;",
+  "names": []
+}

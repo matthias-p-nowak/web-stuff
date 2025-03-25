@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/yellow.ts", "../src/app.ts"],
+  "sourcesContent": ["\r\nwindow.yellow = ()=>{\r\n    console.log('hello from yellow');\r\n}", "import './window.d.ts';\r\nimport './yellow.ts';\r\nconsole.log('hello world from app.ts');\r\n"],
+  "mappings": ";;;AACA,SAAO,SAAS,MAAI;AAChB,YAAQ,IAAI,mBAAmB;AAAA,EACnC;;;ACDA,UAAQ,IAAI,yBAAyB;",
+  "names": []
+}

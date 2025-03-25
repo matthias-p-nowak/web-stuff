@@ -25,7 +25,7 @@
     },
     {
       "label": "sass: watch",
-      "type": "shell",
+      "type": "process",
       "command": "sass",
       "args": [
         "src/scss:.",

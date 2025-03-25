@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/service.ts"],
+  "sourcesContent": ["console.log('hello world from service.ts');\r\n\r\n\r\nlet sw=<ServiceWorkerGlobalScope><unknown>self;\r\n\r\nsw.registration.pushManager"],
+  "mappings": ";;;AAAA,UAAQ,IAAI,6BAA6B;AAGzC,MAAI,KAAsC;AAE1C,KAAG,aAAa;",
+  "names": []
+}
